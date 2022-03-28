@@ -97,15 +97,15 @@ from telethon import Button, events
 @telethn.on(events.NewMessage(pattern="/alive"))
 async def awake(event):
   CUTIEPII = event.sender.first_name
-  CUTIEPII = "**♡ I,m Cutiepii Robot 愛** \n\n"
+  CUTIEPII = "**♡ I,m Near Bot** \n\n"
   CUTIEPII += "**♡ I'm Working With Awesome Speed**\n\n"
-  CUTIEPII += "**♡ Cutiepii: LATEST Version**\n\n"
-  CUTIEPII += "**♡ My Creator:** [Rajkumar](t.me/Awesome_RJ)\n\n"
+  CUTIEPII += "**♡ NearBot: LATEST Version**\n\n"
+  CUTIEPII += "**♡ My Creator:** [Near](t.me/near44)\n\n"
   CUTIEPII += "**♡ python-Telegram-Bot: 13.7**\n\n"
   CUTIEPII_BUTTON = [
       [
           Button.url("🚑 Support", f"https://t.me/{SUPPORT_CHAT}"),
-          Button.url("📢 Updates", "https://t.me/Black_Knights_Union")
+          Button.url("📢 Updates", "https://t.me/near44")
       ]
   ]
   await telethn.send_file(
@@ -167,7 +167,7 @@ buttons = [
                     ],
                    [
                        InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/HindiKDrama"),
+                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/near44"),
                        InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
                      ],
                     [                  
@@ -176,7 +176,7 @@ buttons = [
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                        InlineKeyboardButton(
                              text="📢 Updates",
-                             url="https://t.me/Black_Knights_Union")
+                             url="https://t.me/near44")
                      ], 
     ]
 
@@ -319,7 +319,7 @@ def start(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="📢 Updates",
-                            url="https://telegram.dog/Black_Knights_Union",
+                            url="https://telegram.dog/near44",
                         ),
                     ]
                 ]
